@@ -1,0 +1,92 @@
+body{
+		background-image: url("bg.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		
+}
+#wrap {width: 900px;
+	 margin: 100px 150px 100px 300px;
+	 padding-top: 3px;
+	 padding-left: 20px;
+	 padding-right: 20px;
+	 padding-bottom: 10px;
+	 background-color: rgba(128,128,128,0.2);
+	 
+}	
+
+@font-face{
+	font-family:headerfont;
+    src: url("QuinchoScript.ttf");
+}
+
+
+h1{text-align:center;
+font-family:headerfont;
+font-size:60px;
+}
+
+
+#image1{
+	display: block;
+    margin: auto;
+	width: 1500px;
+    height: 300px;
+	
+	
+}
+#wholemainhome{
+	position: absolute;
+    bottom: 400px;
+    right:1210px;
+    width: 200px;
+    height: 231px;
+   attachment:fixed;
+  
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+    
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.home{
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.home) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+#h1{
+	font-size: 50px;
+}
+#textwidget{
+	position: relative;
+	left: 1px;
+}
