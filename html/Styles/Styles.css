@@ -87,6 +87,27 @@ li a:hover:not(.home) {
 	font-size: 50px;
 }
 #textwidget{
-	position: relative;
-	left: 1px;
+	position: absolute;
+	right: 1px;
+}
+d#members {
+  
+	margin: 5px;
+    border: 1px solid #ccc;
+    
+    width: 180px;
+}
+
+
+
+#members img {
+	
+    width: 500px;
+    height: auto;
+}
+
+#members.asc {
+	
+    padding: 15px;
+    
 }
