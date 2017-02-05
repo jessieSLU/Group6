@@ -2,7 +2,7 @@ body{
 		background-image: url("bg.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		
+		left: 10px
 }
 #wrap {width: 900px;
 	 margin: 100px 150px 100px 300px;
