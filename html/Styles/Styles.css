@@ -2,7 +2,7 @@ body{
 		background-image: url("bg.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		
+		border-radius: 10%	
 }
 #wrap {width: 900px;
 	 margin: 100px 150px 100px 300px;
@@ -28,12 +28,8 @@ font-size:60px;
 
 #image1{
 	display: block;
-    margin: auto;
-	width: 1500px;
-    height: 300px;
-	
-	
 }
+
 #wholemainhome{
 	position: absolute;
     bottom: 400px;
@@ -76,38 +72,55 @@ li a.home{
     color: white;
 }
 
-li a:hover:not(.home) {
+li a:hover:not(.) {
     background-color: #555;
     color: white;
 }
 
-
-
-#h1{
+#poem{
+	text-align: center;
+}
+h2{
+	font-family: headerfont;
+	text-align: center;
+}
+h1{
 	font-size: 50px;
 }
 #textwidget{
 	position: absolute;
 	right: 1px;
 }
-d#members {
-  
-	margin: 5px;
-    border: 1px solid #ccc;
-    
-    width: 180px;
-}
-
-
 
 #members img {
 	
-    width: 500px;
+    width: 300px;
     height: auto;
+	border-radius: 50%
+}
+#mem1, #mem3, #mem5{
+	position: relative;
+	top: 50px;
+	left: 100px;
+	
 }
 
-#members.asc {
-	
-    padding: 15px;
-    
+#mem2, #mem4{
+	position: relative;
+	top: 50px;
+	left:500px;
+}
+#mem1Desc, #mem3Desc, #mem5Desc{
+	position: relative;
+	left: 500px;
+	font-family: headerfont;
+}
+#mem2Desc, #mem4Desc{
+	position: relative;
+	left: 100px;
+	font-family: headerfont;
+}
+footer{
+opacity: 0.5;
+text-align: justify;
 }
