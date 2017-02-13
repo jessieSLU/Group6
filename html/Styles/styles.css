@@ -2,7 +2,7 @@ body{
 		background-image: url("bg.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		left: 10px
+		
 }
 #wrap {width: 900px;
 	 margin: 100px 150px 100px 300px;
@@ -60,7 +60,7 @@ li a {
 
 li {
     text-align: center;
-    border-bottom: 1px solid #555;
+   
 }
 
 li:last-child {
@@ -108,7 +108,7 @@ div.desc {
     text-align: center;
 }
 
-#poem{
+poem{
 	position:relative;
 	top: 10px;
 	text-align: center;
@@ -122,12 +122,12 @@ h2, h3{
 #mem1, #mem3, #mem5{
 	position: relative;
 	top: 20px;
-	left: 100px;
+	left: 455px;
 }
 #mem2, #mem4{
 	position: relative;
 	top: 20px;
-	left: 500px;
+	left: 70px;
 }
 #mem1Desc, #mem3Desc, #mem5Desc{
 	position: relative;
