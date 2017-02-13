@@ -1,0 +1,4 @@
+1.re validated
+2.Removed unnecessary tags
+3.rearranged member names
+* diko pa ginalaw ung gallery
