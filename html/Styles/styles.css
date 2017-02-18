@@ -2,7 +2,6 @@ body{
 		background-image: url("bg.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		
 }
 #wrap {width: 900px;
 	 margin: 100px 150px 100px 300px;
@@ -11,24 +10,17 @@ body{
 	 padding-right: 20px;
 	 padding-bottom: 10px;
 	 background-color: rgba(128,128,128,0.2);
-	 
 }	
-
 @font-face{
 	font-family:headerfont;
     src: url("QuinchoScript.ttf");
 }
-
-
 h1{text-align:center;
 font-family:headerfont;
 font-size:60px;
 }
-
-
 #image1{
 	display: block;
-  	
 }
 #wholemainhome{
 	position: absolute;
@@ -37,48 +29,34 @@ font-size:60px;
     width: 200px;
     height: 280px;
    attachment:fixed;
-  
-    
 }
-
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    
-    
 }
-
 li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
-
 li {
     text-align: center;
    
 }
-
 li:last-child {
     border-bottom: none;
 }
-
 li a.home{
     background-color: #4CAF50;
     color: white;
 }
-
 li a:hover:not(.home) {
     background-color: #555;
     color: white;
 }
-
-
-
 #h1{
 	font-size: 50px;
 }
@@ -86,39 +64,32 @@ li a:hover:not(.home) {
 	position: relative;
 	left: 1px;
 }
-
 div.members{
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
 }
-
 div.members:hover {
     border: 1px solid #777;
 }
-
 #members img {
 	width: 300px;
 	border-radius: 50%;
 }
-
 div.desc {
     padding: 15px;
     text-align: center;
 }
-
 poem{
 	position:relative;
 	top: 10px;
 	text-align: center;
 }
-
 h2, h3{
 	text-align: center;
 	font-family: headerfont;
 }
-
 #mem1, #mem3, #mem5{
 	position: relative;
 	top: 20px;
@@ -144,3 +115,27 @@ p{
 	font-family: 'Century Gothic';
 	text-align: justify;
 }
+/* gallery */
+#gallery {
+	width:900px;
+	margin:auto;
+	float:left;
+}
+#gallery li {
+		float:left;
+}
+#gallery li a:hover {
+		background-color:#7BFFF9;
+		color:black;
+}
+#gallery li a img{
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;	
+	border:10px solid #2E1301;
+	padding:10px; 
+	width:350px;
+}
+#gallery li a img:hover{
+	filter: grayscale(0);
+	}
