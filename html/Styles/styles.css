@@ -2,33 +2,38 @@ body{
 		background-image: url("bg.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+        background-position: left bottom;
+    
 }
-#wrap {width: 900px;
-	 margin: 100px 150px 100px 300px;
+#wrap {
+     width: 1000px;
+	 margin: 50px 150px 100px 200px;
 	 padding-top: 3px;
 	 padding-left: 20px;
-	 padding-right: 20px;
+	 padding-right: 200px;
 	 padding-bottom: 10px;
-	 background-color: rgba(128,128,128,0.2);
+	 
 }	
 @font-face{
 	font-family:headerfont;
     src: url("QuinchoScript.ttf");
 }
-h1{text-align:center;
-font-family:headerfont;
-font-size:60px;
+h1{
+    text-align:center;
+    font-family: headerfont;
+    font-size:60px;
 }
 #image1{
 	display: block;
 }
 #wholemainhome{
 	position: absolute;
-    bottom: 400px;
-    right:1213px;
-    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 10%;
     height: 280px;
-   attachment:fixed;
+    
 }
 ul {
     list-style-type: none;
@@ -39,6 +44,7 @@ ul {
 li a {
     display: block;
     color: #000;
+    background-color: #d1d0cb;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -58,11 +64,7 @@ li a:hover:not(.home) {
     color: white;
 }
 #h1{
-	font-size: 50px;
-}
-#textwidget{
-	position: relative;
-	left: 1px;
+	font-size: 100px;
 }
 div.members{
     margin: 5px;
@@ -139,3 +141,4 @@ p{
 #gallery li a img:hover{
 	filter: grayscale(0);
 	}
+/* involvement */
