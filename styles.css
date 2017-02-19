@@ -1,0 +1,171 @@
+body{
+		background: url("bg.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: left bottom;
+		
+		
+}
+#wrap {width: 1000px;
+	 margin: 50px 150px 100px 200px;
+	 padding-top: 3px;
+	 padding-left: 20px;
+	 padding-right: 200px;
+	 padding-bottom: 10px;
+	 /* background-color: rgba(128,128,128,0.2); */
+	 
+}	
+
+@font-face{
+	font-family:headerfont;
+    src: url("QuinchoScript.ttf");
+}
+
+
+h1{text-align:center;
+font-family:headerfont;
+/* font-size:60px; */
+}
+
+
+#image1{
+	display: block;
+  	
+}
+#wholemainhome{
+	position: fixed;
+	top: 0;
+	left: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	top: 0;
+    position: fixed;
+    width: 100%;
+	background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-weight: bold;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+	padding-left: 10px;
+	font-size: 20px;
+   
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.home{
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.home) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+#h1{
+	font-size: 100px;
+}
+/* #textwidget{ */
+	/* position: relative; */
+	/* left: 1px; */
+/* } */
+
+div.members{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.members:hover {
+    border: 1px solid #777;
+}
+
+#members img {
+	width: 300px;
+	border-radius: 50%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+poem{
+	position:relative;
+	top: 10px;
+	text-align: center;
+}
+
+h2, h3{
+	text-align: center;
+	font-family: headerfont;
+}
+
+#mem1, #mem3, #mem5{
+	/* position: relative; */
+	/* top: 20px; */
+	/* left: 455px; */
+	float: right;
+}
+#mem2, #mem4{
+	/* position: relative; */
+	top: 20px;
+	left: 70px;
+}
+#mem1Desc, #mem3Desc, #mem5Desc{
+	/* position: relative; */
+	float: right;
+}
+#mem2Desc, #mem4Desc{
+	/* position: relative; */
+	left: 100px;
+}
+footer{
+	text-align: justify;
+}
+p{
+	font-family: 'Century Gothic';
+	text-align: justify;
+}
+#gallery {
+	width:900px;
+	margin:auto;
+	float:left;
+}
+#gallery li {
+		float:left;
+}
+#gallery li a:hover {
+		background-color:#7BFFF9;
+		color:black;
+}
+#gallery li a img{
+	filter: grayscale(100%);
+	transition: .3s ease-in-out;	
+	border:10px solid #2E1301;
+	padding:10px; 
+	width:350px;
+}
+#gallery li a img:hover{
+	filter: grayscale(0);
+	}
