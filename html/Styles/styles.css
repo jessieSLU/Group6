@@ -132,7 +132,6 @@ p{
 }
 #gallery li a img{
 	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;	
 	border:10px solid #2E1301;
 	padding:10px; 
